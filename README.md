@@ -4,6 +4,12 @@
 
 This project is a food ordering application, where users order different foods from different restaurants. It was developed by Team Gel as a final project for C385 Java.
 
+## Tech Stack
+
+![image](https://github.com/Chlebab/Gleats/assets/140327423/881d6570-e72f-42d5-b84d-38e659e17981)
+
+![image](https://github.com/Chlebab/Gleats/assets/140327423/044f7c27-2026-4f0f-99df-a58e8431674e)
+
 ## Features
 
 - **Restaurant Listing**: Displays a list of available restaurants.
