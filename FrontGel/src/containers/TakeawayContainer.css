@@ -1,0 +1,71 @@
+/* TakeawayContainer.css */
+
+.TakeawayContainer li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.TakeawayContainer .email-container {
+    flex: 1; /* This will allow the email container to take up the available space */
+    display: flex;
+    align-items: center; /* Vertically aligns the email text */
+}
+
+.TakeawayContainer .button-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+}
+
+.TakeawayContainer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.TakeawayContainer button:hover {
+    background-color: #0056b3;
+}
+
+/* Adjusted style for the "Add New Customer" button */
+.TakeawayContainer .add-customer-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.TakeawayContainer .add-customer-button:hover {
+    background-color: darkgreen;
+}
+
+.TakeawayContainer h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.TakeawayContainer ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.TakeawayContainer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
